@@ -70,4 +70,25 @@ header {
     
     }
     
-    
+    @media screen and (max-width:980px) {
+        body{
+            background-color: lightblue;
+        }
+    }
+    @media screen and (max-width:640px) {
+        header{
+            position: static;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        h1{
+            background color: lightsalmon;
+        }
+    }
+
+    @media screen and (max-width:640px) {
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    }
